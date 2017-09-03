@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+	<!-- <TerrainDefs> -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/TerrainDefs/TerrainDef[defName = "Soil"]/statBases/Beauty</xpath>
+		<Value>
+				<Beauty>1</Beauty>
+		</Value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/TerrainDefs/TerrainDef[defName = "SoilRich"]/statBases/Beauty</xpath>
+		<Value>
+				<Beauty>1</Beauty>
+		</Value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/TerrainDefs/TerrainDef[defName = "MossyTerrain"]/statBases/Beauty</xpath>
+		<Value>
+				<Beauty>1</Beauty>
+		</Value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/TerrainDefs/TerrainDef[defName = "Gravel"]/statBases/Beauty</xpath>
+		<Value>
+				<Beauty>0</Beauty>
+		</Value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/TerrainDefs/TerrainDef[defName = "Sand"]/statBases/Beauty</xpath>
+		<Value>
+				<Beauty>0</Beauty>
+		</Value>
+	</Operation>
+	<!-- </TerrainDefs> -->
+	<!-- <PlantDefs> -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "PlantBush"]/statBases</xpath>
+		<Value>
+			<Beauty>1</Beauty>
+		</Value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "PlantGrass"]/statBases</xpath>
+		<Value>
+			<Beauty>1</Beauty>
+		</Value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "PlantMoss"]/statBases</xpath>
+		<Value>
+			<Beauty>1</Beauty>
+		</Value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "PlantTallGrass"]/statBases</xpath>
+		<Value>
+			<Beauty>1</Beauty>
+		</Value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "PlantSaguaroCactus"]/statBases</xpath>
+		<Value>
+			<Beauty>1</Beauty>
+		</Value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[defName = "PlantPincushionCactus"]/statBases</xpath>
+		<Value>
+			<Beauty>1</Beauty>
+		</Value>
+	</Operation>
+	<!-- </PlantDefs> -->
+</Patch>
